@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html>
+ <head>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="icon.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>One Word</title>
+  <meta charset="utf-8"/>
+  <meta name="theme-color" content="#fff"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"/>
+ </head>
+ <body class="theme0">
+  <div id="loader">
+   <div id="loadic">
+    <button id="loadlogo">
+     1 <k>W</k><e>O</e><l>R</l><im>D</im>
+    </button>
+   </div>
+  </div>
+  <div id="iceren">
+    <div id="soru"></div>
+    <button id="cevapla" onclick="ara()">Answer</button>
+  </div>
+  <div id="joker">
+    <div id="jokeric"></div>
+  </div>
+  <div id="sure">
+  </div>
+  <div id="sozluk" class="inactive">
+    <div id="sozlukic">
+      <div id="aramasonuc">
+        <h2 id="sonucBaslik"></h2>
+        <h4 id="sonucBilgi"></h4>
+        <p id="sonucAnlam"></p>
+      </div>
+      <div id="puan">You scored 0 points</div>
+    </div>
+  </div>
+  <div id="bitti">
+    <div id="oyunbitti"><h1>Game Over</h1></div>
+    <div>Your Score: <span id="bitim"></span></div>
+    <div>Your Record: <span id="rekor"></span></div>
+    <div style="padding:1em 0"><button onclick="anasayfa()">Homepage</button></div>
+  </div>
+  <button onclick="menuac()" id="menuac">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+  <div id="menu">
+    <div id="closemenu" onclick="menukapa()"><i class="fa-solid fa-xmark"></i> Close the menu</div>
+    <div id="tema" onclick="tema()"></div>
+    <a id="lang" href="../"><i class="fa-solid fa-language"></i> Türkçe Versiyona Geç</a>  
+  </div>
+  <button id="devam" onclick="bak()">Start</button>
+  <div id="uyari" class="hata"></div>
+  <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>
